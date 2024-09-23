@@ -104,7 +104,13 @@ tr[class="total"] {
   font-weight: bold;
 }
 
- tr[class="total"] th{
+tr[class="total"] th {
   text-align: left;
-  padding: 0.5rem 0 0.25rem 0.5rem; 
+  padding: 0.5rem 0 0.25rem 0.5rem;
 }
+
+tr.total td {
+  text-align: right;
+  padding: 0 0.25rem;
+}
+
