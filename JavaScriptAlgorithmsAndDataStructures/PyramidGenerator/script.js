@@ -1,6 +1,15 @@
-let character = 'Hello';
-let count = 8;
-let rows = ["Naomi", "Quincy", "CamperChan"];
-rows.push("freeCodeCamp");
+const character = "#";
+const count = 8;
+const rows = [];
 
-console.log(rows);
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(i);
+}
+
+let result = ""
+
+for (const row of rows) {
+  result = result + row;
+}
+
+console.log(result);
